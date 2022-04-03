@@ -1,0 +1,71 @@
+body {
+  background-color: #8FBDD3;
+}
+
+h1 {
+  color: #333C83;
+  font-style: normal;
+  font-family: times new roman;
+}
+
+h2 {
+  color: #006778;
+  font-style: normal;
+  font-family: times new roman;
+}
+
+hr {
+  border-color: black;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 2%;
+}
+
+p {
+  font-style: normal;
+  font-family: georgia;
+}
+
+td {
+  font-style: normal;
+  font-family: georgia;
+}
+
+li {
+  font-style: normal;
+  font-family: georgia;
+}
+
+th {
+  font-style: normal;
+  font-family: times new roman;
+}
+
+title {
+  font-style: normal;
+  font-family: times new roman;
+}
+
+a {
+  font-style: normal;
+  font-family: georgia;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+div::after {
+  content: "";
+  background: url(coding-vs-programming-2.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
